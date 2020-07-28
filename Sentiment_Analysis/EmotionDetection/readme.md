@@ -5,7 +5,7 @@ Large Moview Review Dataset (https://ai.stanford.edu/~amaas/data/sentiment/)
 
 ### Model:
 1. TextBlob NaiveBayesAnalyzer
-2. SVM 
+2. SGDClassifier 
 3. Random Forest
 4. Logistic Regression Model
 
