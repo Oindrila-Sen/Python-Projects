@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename='./style.css') }}">
+</head>
+<title>Twitter - Get tweets for a Hashtag</title>
+<h2>Twitter - Get tweets for a Hashtag and Predicted Emotion</h2>
+<body>
+<p>Take a Look at the top 50 tweets for the hashtag.Please scroll down to check all the 50 tweets:</p>
+<p>
+<div style="height:250px; overflow-y: scroll;">
+{{ table|safe }}
+<p>
+</div>
+<p>
+<p> Positive Vs Negative Emotion </p>
+<br>
+<img src="{{ url_for('plot_png') }}" alt="Image Placeholder" height="200", align=center>
+<p>
+<br>
+<br>
+<p>Thank You!</p>
+</body>
+</html>
+</doctype>
